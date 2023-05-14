@@ -1,0 +1,15 @@
+@mixin primary-before {
+    content: "";
+    width: 106px;
+    height: 106px;
+    display: inline-block;
+    margin-bottom: 32px;
+    background-repeat: no-repeat;
+    background-size: 106px 106px;
+}
+
+@mixin before-tablet {
+    width: 88px;
+    height: 88px;
+    background-size: 88px 88px;
+}

@@ -1,0 +1,129 @@
+#work {
+    background-color: #1B262F;
+}
+
+.wrapper__work {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-image: url(../../img/work-background-1.png);
+    background-position: left top;
+    background-size: 500px;
+}
+
+.work__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.work__content {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    max-width: 445px;
+}
+
+.work__title {
+    font-family: $font2;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.369231px;
+    color: #FBFCFE;
+    margin-bottom: 24px;
+}
+
+.work__text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: #FBFCFE;
+    opacity: 0.7;
+    margin-bottom: 32px;
+}
+
+.work__link {
+    font-weight: 700;
+    text-align: center;
+    color: #FBFCFE;
+    padding: 15px 32px;
+    border: 1px solid #FBFCFE;
+    border-radius: 24px;
+}
+
+.work__list {
+    text-align: center;
+    gap: 62px;
+    display: flex;
+}
+
+.work__list:nth-child(1) {
+    margin-bottom: 50px;
+}
+
+.work__item {
+    flex-shrink: 0;
+    margin: 0 auto;
+    max-width: 150px;
+}
+
+.work__item-img {
+    text-align: center;
+    max-width: 150px;
+    object-fit: none;
+
+}
+
+// responsive tablet
+
+@media screen and (max-width:1000px) {
+
+    .wrapper__work {
+        max-width: 1440px;
+        margin: 0 auto;
+        background-repeat: no-repeat;
+        background-image: url(../../img/work-background-2.png);
+        background-position: center top;
+        background-size: 780px;
+    }
+
+    .work__box {
+        flex-direction: column-reverse;
+    }
+
+    .work__list:nth-child(1) {
+        padding-top: 80px;
+    }
+
+    .work__content {
+        text-align: center;
+        padding-top: 64px;
+        padding-bottom: 88px;
+        max-width: 447px;
+    }
+
+}
+
+// responsive mobile
+
+
+@media screen and (max-width:600px) {
+    .work__img-block {
+        display: flex;
+    }
+
+    .work__list:nth-child(1) {
+        margin-right: 30px;
+
+    }
+
+    .work__list {
+        padding-top: 80px;
+        flex-direction: column;
+    }
+
+    .work__title {
+        font-size: 32px;
+        line-height: 36px;
+    }
+}
