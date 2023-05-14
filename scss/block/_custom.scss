@@ -33,17 +33,17 @@
 
 .custom__item:nth-child(1)::before {
     @include primary-before;
-    background-image: url(../../img/custom-img-1.png);
+    background-image: url(../img/custom-img-1.png);
 }
 
 .custom__item:nth-child(2)::before {
     @include primary-before;
-    background-image: url(../../img/custom-img-2.png);
+    background-image: url(../img/custom-img-2.png);
 }
 
 .custom__item:nth-child(3)::before {
     @include primary-before;
-    background-image: url(../../img/custom-img-3.png);
+    background-image: url(../img/custom-img-3.png);
 }
 
 

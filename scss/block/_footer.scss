@@ -46,7 +46,7 @@ footer {
     background-size: 24px 24px;
     width: 25px;
     height: 25px;
-    background-image: url(../../img/footer-img-facebook.png)
+    background-image: url(../img/footer-img-facebook.png)
 }
 
 .footer__img-item__link2 {
@@ -54,7 +54,7 @@ footer {
     background-size: 24px 24px;
     width: 25px;
     height: 25px;
-    background-image: url(../../img/footer-img-twitter.png)
+    background-image: url(../img/footer-img-twitter.png)
 }
 
 .footer__img-item__link3 {
@@ -62,7 +62,7 @@ footer {
     background-size: 24px 24px;
     width: 25px;
     height: 25px;
-    background-image: url(../../img/footer-img-linkedin.png)
+    background-image: url(../img/footer-img-linkedin.png)
 }
 
 @media screen and (max-width:660px) {
@@ -84,7 +84,7 @@ footer {
 
     .wrapper__footer {
         background-repeat: no-repeat;
-        background-image: url(../../img/footer-background-2.png);
+        background-image: url(../img/footer-background-2.png);
         background-size: 640px;
         background-position: center bottom;
         padding-bottom: 31px;
@@ -95,7 +95,7 @@ footer {
 @media screen  and (max-width:500px) {
     .wrapper__footer {
         background-repeat: no-repeat;
-        background-image: url(../../img/footer-background-2.png);
+        background-image: url(../img/footer-background-2.png);
         background-size: 480px;
         background-position: center bottom;
         padding-bottom: 31px;
@@ -105,7 +105,7 @@ footer {
 @media screen  and (max-width:400px) {
     .wrapper__footer {
         background-repeat: no-repeat;
-        background-image: url(../../img/footer-background-2.png);
+        background-image: url(../img/footer-background-2.png);
         background-size: 375px;
         background-position: center bottom;
         padding-bottom: 31px;
